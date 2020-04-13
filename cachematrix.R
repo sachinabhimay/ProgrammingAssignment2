@@ -52,3 +52,13 @@ cacheSolve <- function(x, ...) {
   x$setinv(inv)
   inv
 }
+
+# > source('cachematrix.R')
+# > m <- makeCacheMatrix(matrix(rnorm(9),3,3))
+# > cacheSolve(m)
+# [,1]       [,2]        [,3]
+# [1,]  1.3198238 -0.2822013 -3.13708960
+# [2,] -0.7451885  0.6756384  1.39353302
+# [3,] -0.2880197 -0.3727569 -0.08436647
+
+
