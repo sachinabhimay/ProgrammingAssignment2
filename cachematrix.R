@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+# Used to create Cached Matrix for inverse calculation
 
 makeCacheMatrix <- function(x = matrix()) {
   #local inverse varivale inv set to null initially
